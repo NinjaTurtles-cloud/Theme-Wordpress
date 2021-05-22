@@ -1,0 +1,100 @@
+/*
+Theme Name: WiloneBoostrap 4
+Author: Wilone
+Author URI: https://www.zikrea.com/
+Description: Wilone est mon premier theme basé sous boostrap
+Version : 1.0;
+Text Domain: WiloneBoostrap 4
+*/
+
+/*====================================   
+===================  COLOR  
+========================================*/
+.BGa { background-color : #262626; } /*gris moyen (background)*/
+.BGb { background-color : #141414; /*black*/ } 
+.BGc2 { background-color : #373737; /*gris claire jumboTronThumbnail*/ } 
+.BGc1 { background-color : #494949; /*gris claire + ( gris claire selectionné hover)*/ } 
+.BGa0 { background-color : #94D500; /*Vert logo*/ }
+.BGa1 { background-color : #45C4DF; /*Bleu ( couleur 1 )*/ }
+.BGa2 { background-color : #FF499A; /*Rose couleurs 2*/ }
+
+.COa { color : #262626; } /*gris moyen (background)*/
+.COb { color : #141414; /*black*/ } 
+.COc2 { color : #373737; /*gris claire jumboTronThumbnail*/ } 
+.cCOc1 { color : #494949; /*gris claire + ( gris claire selectionné hover)*/ } 
+.COa0 {color : #94D500; /*Vert logo*/ }
+.COa1 { color : #45C4DF; /*Bleu ( couleur 1 )*/ }
+.COa2 { color : #FF499A; /*Rose couleurs 2*/ }
+.COt1 { color : rgb(255, 255, 255); /*Texte blanc*/ }
+.COt2 { color : #949494; /*Texte gris claire*/ }
+
+
+
+.card { background-color: transparent; }
+
+p { color : rgb(255, 255, 255); /*Texte blanc*/ }
+label { color : rgb(255, 255, 255); /*Texte blanc*/ }
+legend { color : rgb(255, 255, 255); /*Texte blanc*/ }
+
+
+
+/*======================================*/
+/* ===============GENERAL===============*/
+.centerAuto{margin : 0 auto;}
+
+.mt15em{
+  margin-top: 1.5rem;
+}
+
+.mb15em{ margin-bottom: 1.5rem; }
+
+.pad15rem{padding: 1.5rem;}
+
+
+.noPadding{
+  padding: 0!important;
+}
+
+
+
+/*content-3col-thumbcss*/
+
+.bgcard:hover{
+
+  background-color: red;
+  background-position: absolute;
+
+}
+.thumbcss{
+visibility: hidden;
+}
+
+.thumbcss:hover{
+  visibility: visible;
+}
+
+/*Boutton Audio */
+.playText {
+  text-align: right;
+  clear: both;
+  margin-left: 1rem;
+}
+.playButton span {
+  float: left;
+}
+#buttonPlay{
+	color: white;
+}
+#buttonPlay.active{
+	color: red;
+}
+
+/*Boouton Audio Gallery*/
+.infoButtonGelery {
+  text-align: right;
+  clear: both;
+  margin-left: 1rem;
+}
+.playButtonGalery span {
+  float: left;
+}
