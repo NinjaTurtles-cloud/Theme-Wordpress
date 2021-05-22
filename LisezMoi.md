@@ -1,7 +1,7 @@
 # Theme-Wordpress
 Theme Wordpress
 
-Je regroupe ici mes theme Wordpress 
+Je regroupe ici mes themes Wordpress 
 
 1 DigitalShop 
 Them WP d'un site de vente de produit Digital en ligne optimisé avec le plugin DigitalShop
